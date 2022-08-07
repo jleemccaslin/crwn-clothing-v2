@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Encode Sans Condensed";
+  src: local("Encode Sans Condensed"), url("./assets/fonts/EncodeSansCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Encode Sans Condensed";
+  src: local("Encode Sans Condensed"), url("./assets/fonts/EncodeSansCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
