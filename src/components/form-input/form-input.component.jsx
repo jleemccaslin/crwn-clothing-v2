@@ -1,6 +1,6 @@
 import './form-input.styles.scss';
 
-const FormInput = ({ label, inputOptions }) => {
+const FormInput = ({ label, ...inputOptions }) => {
   return (
     <div className="group">
       <input className="form-input" {...inputOptions}/>
